@@ -1,0 +1,49 @@
+const questions = {
+    easy: [
+        {
+            question: "What is the default value of a boolean variable in Java?",
+            options: ["A) true", "B) false", "C) null", "D) 0"],
+            answer: "B) false"
+        },
+        {
+            question: "Which of the following is a valid way to declare a method in Java that does not return any value?",
+            options: ["A) public void myMethod() {}", "B) public return void myMethod() {}", "C) public void return myMethod() {}", "D) void public myMethod() {}"],
+            answer: "A) public void myMethod() {}"
+        },
+        {
+            question: "Which of the following is NOT a valid primitive data type in Java?",
+            options: ["A) int", "B) double", "C) string", "D) char"],
+            answer: "C) string"
+        },
+        {
+            question: "Which of the following methods can be used to read input from the user in Java?",
+            options: ["A) Scanner.nextInt()", "B) Scanner.next()", "C) BufferedReader.readLine()", "D) All of the above"],
+            answer: "D) All of the above"
+        },
+        {
+            question: "Which of the following is true about method overloading in Java?",
+            options: ["A) It allows two methods with the same name to have different return types.", "B) It allows two methods with the same name and parameters.", "C) It allows two methods with the same name but different parameter types.", "D) It allows two methods with the same name but different access modifiers."],
+            answer: "C) It allows two methods with the same name but different parameter types."
+        },
+        {
+            question: "What will be the output of the following code?\nint a = 10;\nint b = 5;\nSystem.out.println(a / b);",
+            options: ["A) 2.0", "B) 2", "C) 10", "D) 0"],
+            answer: "B) 2"
+        },
+        {
+            question: "Which of the following statements about the HashMap class in Java is true?",
+            options: ["A) It allows duplicate keys.", "B) It maintains the order of keys in the map.", "C) It allows only one null key.", "D) It is synchronized by default."],
+            answer: "C) It allows only one null key."
+        },
+        {
+            question: "In Java, what is the purpose of the volatile keyword?",
+            options: ["A) To ensure that a variable can only be modified by one thread at a time.", "B) To guarantee that the value of a variable is always updated in all threads.", "C) To prevent the value of a variable from being cached.", "D) To ensure that a variable cannot be assigned a null value."],
+            answer: "B) To guarantee that the value of a variable is always updated in all threads."
+        },
+        {
+            question: "What is the time complexity of accessing an element from a HashMap in the average case?",
+            options: ["A) O(n)", "B) O(log n)", "C) O(1)", "D) O(n^2)"],
+            answer: "C) O(1)"
+        }
+    ]
+};
